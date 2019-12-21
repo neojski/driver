@@ -26,7 +26,7 @@
     "babel": "babel dist -d dist",
     "build": "tsc && npm run babel",
     "watch": "tsc --watch",
-    "prepack": "npm run build",
+    "prepack": "npm install && npm run build",
     "travis": "npm test && npm run build"
   },
   "author": "Max Isom <hi@maxisom.me> (https://maxisom.me/)",
